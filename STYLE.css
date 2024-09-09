@@ -1,0 +1,206 @@
+body {
+    font-family: simple birthday, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: #446e56;
+    color: rgb(236, 224, 224)
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.video {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    width: 100%; 
+    max-width: 2100px; 
+    border-radius: 30px;
+}
+.text {
+    font-family:hello, sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+} 
+.parrafo {
+    color: rgb(17, 17, 17);
+    font-family: Impact, Haettenschweiler, sans-serif;
+    text-align: center;
+    font-size: 25px;
+
+}
+.button {
+    display: inline-block;
+    margin: 20px;
+    padding: 20px 20px;
+    background-color: #546338;
+    color: rgb(241, 233, 233);
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+    font-family: Impact, Haettenschweiler, sans-serif;
+}
+.button:hover {
+    background-color: #a5ce47;
+}
+.subtitles {
+        text-align: center; /* Alinea el texto al centro */
+    }
+
+header {
+    background-color: #2d5030;
+    text-align: center;
+    padding: 25px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #131188;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #546338;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn:hover {
+    background-color: #6da73e;
+}
+.images img:hover, .gallery img:hover {
+    border-color: #868f67;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content:center;
+    flex-wrap: center;
+    gap: 30px;
+    background-color: rgb(1, 17, 6);
+    border-radius: 50px;
+}
+
+.image-item {
+    border: 0 solid #692d2d;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.image-item img {
+    max-width: 300%;
+    height: 60%;
+}
+
+/* About Page */
+header img {
+    max-width: 150px;
+    margin: 100px;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.text p {
+    margin: 10px 0;
+}
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    overflow: hidden; /* Evita el scroll si es innecesario */
+}
+
+.caratula {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el texto */
+    align-items: center;     /* Centra horizontalmente el texto */
+    height: 100vh;           /* Ocupa el 100% de la altura de la ventana */
+    background: url('fond.jpeg') no-repeat center center fixed; /* Imagen de fondo centrada */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el contenedor */
+    text-align: center; /* Centra el texto */
+    padding: 20px;
+}
+
+.escudo {
+    position: absolute;
+    top: 50px; /* Ajusta según sea necesario */
+    left: 50px; /* Ajusta según sea necesario */
+    width: 200px; /* Ajusta el tamaño del escudo según sea necesario */
+    height: auto; /* Mantiene la proporción del escudo */
+}
+
+.logo {
+    position: absolute;
+    bottom: 60px; /* Ajusta según sea necesario */
+    right: 50px; /* Ajusta según sea necesario */
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+    height: auto; /* Mantiene la proporción del logo */
+    left: 1000px;
+}
+
+.text-container {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté encima de las imágenes */
+}
+
+.cover-title {
+    font-size: 2sem; /* Tamaño grande para el título */
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.cover-subtitle {
+    font-size: 0.5; /* Tamaño más pequeño para el subtítulo */
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #050505;
+}
+.button3 {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #e6e36b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.button3:hover {
+    background-color: #334297;
+}
+.links1{
+    text-align: center;
+}
+    
+
+
